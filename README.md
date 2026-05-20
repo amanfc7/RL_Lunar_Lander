@@ -12,8 +12,6 @@ uv run python eval.py
 
 ## TODOs
 
-The starter code has three `TODO` blocks to fill in:
-
 1. `agent.py` — pick the action index from the policy logits at inference time.
 2. `rl_model.py` (`collect_rollouts`) — sample an action from the policy during rollouts.
 3. `rl_model.py` (`loss_a2c`) — compute discounted n-step returns (respecting `is_done`), the value and policy losses, and the entropy regularization term.

@@ -26,11 +26,4 @@ After resolving the TODOs, training with
 uv run python train.py --n_iterations=50000    # ~20 min
 ```
 
-should reach **50–100** points on average, the exam pass bar is **200** points.
-
-## Submit your agent to the Competition
-
-Submissions for the Machine Learning class are made on **ML-Arena**. Enroll to the competition course:
-https://ml-arena.com/enroll/1a0180287f664d289ae335bb6ff94928
-
-
+should reach **50–100** points on average.

@@ -10,7 +10,7 @@ Dependencies (Python 3.10, Torch 2.9.1, gymnasium[box2d]) are pinned in `pyproje
 uv run python eval.py
 ```
 
-## TODOs
+## Files:
 
 1. `agent.py` — pick the action index from the policy logits at inference time.
 2. `rl_model.py` (`collect_rollouts`) — sample an action from the policy during rollouts.
@@ -18,10 +18,10 @@ uv run python eval.py
 
 ## Expected performance
 
-After resolving the TODOs, training with
+After resolving, training with
 
 ```bash
 uv run python train.py --n_iterations=50000    # ~20 min
 ```
 
-should reach **50–100** points on average.
+should reach **50–100** points on average and will increase with numer of iterations.
